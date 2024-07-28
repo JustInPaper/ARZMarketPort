@@ -1,4 +1,9 @@
 {
+    "Actor_AntiCrasher": {
+        "link": "https://github.com/FREYM1337/forumnick/raw/main/script_manager/pedsync.lua",
+        "png": "https://imgur.com/kY0c2Wy",
+        "description": "Фиксит баг когда садишься в машину\n и к тебе садится охранник\n у тебя зависает ГТА."
+    },
     "GreenZone": {
         "link": "https://github.com/FREYM1337/forumnick/raw/main/script_manager/greenzone.lua",
         "png": "https://imgur.com/4Cht8RB",
