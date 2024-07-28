@@ -1,4 +1,9 @@
 {
+    "FastOpenNomera": {
+        "link": "https://github.com/FREYM1337/forumnick/raw/main/script_manager/nomera.lua",
+        "png": "https://imgur.com/PuTInWc",
+        "description": "Быстрое открытие номеров без анимации"
+    },
     "ActorAntiCrasher": {
         "link": "https://github.com/FREYM1337/forumnick/raw/main/script_manager/pedsync.lua",
         "png": "https://imgur.com/kY0c2Wy",
