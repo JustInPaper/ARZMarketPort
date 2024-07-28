@@ -1,8 +1,13 @@
 {
+    "GreenZone": {
+        "link": "https://github.com/FREYM1337/forumnick/raw/main/script_manager/greenzone.lua",
+        "png": "https://imgur.com/4Cht8RB",
+        "description": "После установки вы будете видеть\nгде находятся зеленые зоны."
+    },
     "AcsHelper": {
         "link": "https://github.com/FREYM1337/forumnick/raw/main/script_manager/ActiveAccsHelper.lua",
         "png": "https:\/\/imgur.com\/21pySOA",
-        "description": "После установки вы будете видеть\nкогда вам будет доступен ледяной меч"
+        "description": "После установки вы будете видеть\nкогда вам будет доступен ледяной меч."
     },
     "AutoCloseBanner": {
         "link": "https://github.com/FREYM1337/forumnick/raw/main/script_manager/banner.lua",
