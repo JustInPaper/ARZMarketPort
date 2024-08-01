@@ -5,7 +5,7 @@
         "description": "Быстрое открытие номеров без\nанимации."
     },
     "VideoDisabler-v1": {
-        "link": "https://github.com/FREYM1337/forumnick/raw/main/script_manager/nomera.lua",
+        "link": "https://github.com/FREYM1337/forumnick/raw/main/script_manager/DisableVideo.lua",
         "png": "https://imgur.com/78y6WUs",
         "description": "Отключает все билборды с видео\nпомогаем повысить фпс."
     },
