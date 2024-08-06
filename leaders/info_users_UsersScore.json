@@ -1,1 +1,8 @@
-[{"id":3,"username":"[8]Taras_Markow[950946]","exp":4,"osTime":1722535204},{"id":8,"username":"[-1][00]Freym_[18794]","exp":1,"osTime":1722544204},{"id":11,"username":"%5B-1%5DFreym_%5B18794%5D","exp":1,"osTime":1722689202},{"id":12,"username":"%5B-1%5DFreym_%5B18749%5D","exp":1,"osTime":1722689520},{"id":13,"username":"%5B-1%5DFreym1%5B18749%5D","exp":1,"osTime":1722690002},{"id":14,"username":"%5B8%5DTaras_Markow%5B1027205%5D","exp":1,"osTime":1722690002},{"id":15,"username":"%5B22%5DDoctor_Nevropatolog%5B230610%5D","exp":1,"osTime":1722690002},{"id":16,"username":"%5B28%5DArseniy_Verteyko%5B2246%5D","exp":1,"osTime":1722690003},{"id":17,"username":"[-1]Freym1[18794]","exp":1,"osTime":1722690835},{"id":4,"username":"[22]Azuki_Jeezly[1612]","exp":39,"osTime":1722704404},{"id":18,"username":"[20]Matteo_Freym[2155]","exp":4,"osTime":1722718804},{"id":19,"username":"[-1]Freym222[2636226]","exp":1,"osTime":1722726012},{"id":9,"username":"[8]Taras_Markow[1027205]","exp":22,"osTime":1722758404},{"id":6,"username":"[22]Doctor_Nevropatolog[230610]","exp":26,"osTime":1722762004},{"id":10,"username":"[8]Arseniy_Verteyko[791122]","exp":7,"osTime":1722625204},{"id":1,"username":"[8]Matteo_Freym[36442]","exp":3,"osTime":1722767404},{"id":7,"username":"[23]Aleksey_Osobov[211]","exp":4,"osTime":1722769204},{"id":2,"username":"[28]Arseniy_Verteyko[2246]","exp":58,"osTime":1722769205},{"id":5,"username":"[-1]Freym_[18794]","exp":23,"osTime":1722769205}]
+[
+    {
+        "id": 1,
+        "username": "[8]Matteo_Freym[36442]",
+        "exp": 100000,
+        "osTime": 1722535204
+    }
+]
