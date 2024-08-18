@@ -4,5 +4,11 @@
         "png": "https://imgur.com/pWjtI1j",
         "link": "https://youtu.be/5u4zcRsxzeg",
         "description": "Посмотрите премьеру скрипта\nи узнайте много нового."
+    },
+    "release_youtuber": {
+        "head": "Видео с скриптом",
+        "png": "https://imgur.com/6APdUtQ",
+        "link": "https://youtu.be/rbFIR5sTTn4",
+        "description": "Ютубер NERREL сделал видео\nс нашим скриптом."
     }
 }
