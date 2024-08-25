@@ -9,6 +9,11 @@
         "png": "https://imgur.com/x3O41Zi",
         "description": "После установки данная табличка\nполностью пропадет из игры."
     },
+    "NewStroboMenu": {
+        "link": "https://github.com/FREYM1337/forumnick/raw/main/script_manager/strobo.lua",
+        "png": "https://imgur.com/tXZNJ4p",
+        "description": "Луа которая добавляет 2 вида\nстробоскопов с настройкой задержки.\nОткрыть настройки можно командой /strobo."
+    },
     "VideoDisabler-v1": {
         "link": "https://github.com/FREYM1337/forumnick/raw/main/script_manager/DisableVideo.lua",
         "png": "https://imgur.com/78y6WUs",
