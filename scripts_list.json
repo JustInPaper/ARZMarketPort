@@ -14,6 +14,11 @@
         "png": "https://imgur.com/tXZNJ4p",
         "description": "Луа которая добавляет 2 вида\nстробоскопов с настройкой задержки.\nОткрыть настройки можно командой /strobo."
     },
+    "AltEnter_Fix": {
+        "link": "https://github.com/FREYM1337/forumnick/raw/main/script_manager/alt_enter.lua",
+        "png": "https://imgur.com/rrTuFDx",
+        "description": "Данная луа фиксит когда вы \nслучайно нажимали Alt+Enter и гта сворачивалась."
+    },
     "VideoDisabler-v1": {
         "link": "https://github.com/FREYM1337/forumnick/raw/main/script_manager/DisableVideo.lua",
         "png": "https://imgur.com/78y6WUs",
