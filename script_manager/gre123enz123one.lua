@@ -52,7 +52,7 @@ function main()
             applySampfuncsPatch()
         end
     while true do wait(0)
-        if (os.clock() - oldtime) > 1.5 and sampIsLocalPlayerSpawned() == true and not sampIsDialogActive() and not isPauseMenuActive() and not sampIsChatInputActive() and gzinfobar == true then 
+        if (os.clock() - oldtime) > 1.0 and sampIsLocalPlayerSpawned() == true and not sampIsDialogActive() and not isPauseMenuActive() and not sampIsChatInputActive() and gzinfobar == true then 
             oldtime = os.clock()
             sampSendChat('/gzinfo')
         end
@@ -75,6 +75,7 @@ function main()
     end
 end
 
+
 function sampev.onSendClickTextDraw(id) -- отправка текстдрава
     if id == 65535 and menuedit == true then
         menuedit = false
@@ -87,6 +88,7 @@ function sampev.onSendClickTextDraw(id) -- отправка текстдрава
         return false
     end
 end
+
 
 function applySampfuncsPatch()
     local memory = memory or require 'memory'
@@ -128,11 +130,8 @@ function sampev.onServerMessage(color, text)
         end
         return false
     end
-    if text:find('Не флуди') and color == -10270721 then
-        return false
-    end
 end
-
+    
 AFKMessage = function(text) 
 	sampAddChatMessage('[Freym-tech] {ffffff}'..text,0xFF4141) 
 end
