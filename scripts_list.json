@@ -38,5 +38,10 @@
         "link": "https://github.com/FREYM1337/forumnick/raw/main/script_manager/banner.lua",
         "png": "https:\/\/imgur.com\/e4zwNGo",
         "description": "После установки данная табличка\nполностью пропадет из игры."
+    },
+    "AutoCloseUpdate": {
+        "link": "https://github.com/FREYM1337/forumnick/raw/main/script_manager/hbanner.lua",
+        "png": "https://imgur.com/lmtOrPt",
+        "description": "После установки данная табличка\nполностью пропадет из игры."
     }
 }
