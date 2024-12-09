@@ -44,7 +44,7 @@
         "png": "https://imgur.com/lmtOrPt",
         "description": "После установки данная табличка\nполностью пропадет из игры."
     },
-    "AntiUpdate": {
+    "ArizonaAntiUpdate": {
         "link": "https://github.com/FREYM1337/forumnick/raw/main/script_manager/AntiUpdate.lua",
         "png": "https://imgur.com/bR2WaUR",
         "description": "Удаляет плажку 'Доступно обновление'\nПосле установки перезайти в игру."
