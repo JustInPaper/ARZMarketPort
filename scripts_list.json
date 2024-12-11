@@ -48,5 +48,10 @@
         "link": "https://github.com/FREYM1337/forumnick/raw/main/script_manager/AntiUpdate.lua",
         "png": "https://imgur.com/bR2WaUR",
         "description": "Удаляет плажку 'Доступно обновление'\nПосле установки перезайти в игру."
+    },
+    "ArzFastCarsMenu": {
+        "link": "https://github.com/FREYM1337/forumnick/raw/main/script_manager/fastcarmenu.lua",
+        "png": "https://imgur.com/GNUlbRM",
+        "description": "Открывате трезвый водитель по команде\nДля использования введите /pcars"
     }
 }
