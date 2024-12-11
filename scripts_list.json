@@ -52,6 +52,6 @@
     "ArzFastCarsMenu": {
         "link": "https://github.com/FREYM1337/forumnick/raw/main/script_manager/fastcarmenu.lua",
         "png": "https://imgur.com/GNUlbRM",
-        "description": "Открывате трезвый водитель по команде\nДля использования введите /pcars"
+        "description": "Открывает трезвый водитель по команде\nКоманда для активации /pcars"
     }
 }
