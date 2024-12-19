@@ -1,14 +1,13 @@
 function main()
     repeat wait(0) until isSampAvailable()
     sampAddChatMessage("DisableVideo | Loaded.", -1)
-    print('DisableVideov2')
 end
 
 
 function onReceivePacket(id, bs)
 	if id == 220 then
         local text, packets = bitStreamStructure(bs)
-		if text:find('http') and not text:find('DonateJson') and not text:find('pubg') then
+		if text:find('http') and not text:find('DonateJson') then
             return false
 		end
     end
