@@ -19,11 +19,6 @@
         "png": "https://imgur.com/rrTuFDx",
         "description": "Данная луа фиксит когда вы \nслучайно нажимали Alt+Enter\nи гта сворачивалась. Блокирует нажатие Alt+Enter."
     },
-    "VideoDisabler-v1": {
-        "link": "https://github.com/FREYM1337/forumnick/raw/main/script_manager/DisableVideo.lua",
-        "png": "https://imgur.com/78y6WUs",
-        "description": "Отключает все билборды с видео\nпомогаем повысить фпс."
-    },
     "GreenZoneHelper": {
         "link": "https://github.com/FREYM1337/forumnick/raw/main/script_manager/greenzone.lua",
         "png": "https://imgur.com/4Cht8RB",
