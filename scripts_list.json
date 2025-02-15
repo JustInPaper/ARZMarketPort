@@ -42,7 +42,7 @@
     "ArizonaAntiTDLag": {
         "link": "https://github.com/FREYM1337/forumnick/raw/main/script_manager/lag.lua",
         "png": "https://imgur.com/lx8Ei11",
-        "description": "Фиксит залага при открытии \nинвентаря."
+        "description": "Фиксит залаг при открытии \nинвентаря."
     },
     "ArizonaAntiUpdate": {
         "link": "https://github.com/FREYM1337/forumnick/raw/main/script_manager/AntiUpdate.lua",
