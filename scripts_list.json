@@ -19,6 +19,11 @@
         "png": "https://imgur.com/rrTuFDx",
         "description": "Данная луа фиксит когда вы \nслучайно нажимали Alt+Enter\nи гта сворачивалась. Блокирует нажатие Alt+Enter."
     },
+    "ArizonaAntiLag": {
+        "link": "https://github.com/FREYM1337/forumnick/raw/main/script_manager/lag.lua",
+        "png": "https://imgur.com/lx8Ei11",
+        "description": "Фиксит залага при открытии \nинвентаря."
+    },
     "GreenZoneHelper": {
         "link": "https://github.com/FREYM1337/forumnick/raw/main/script_manager/greenzone.lua",
         "png": "https://imgur.com/4Cht8RB",
