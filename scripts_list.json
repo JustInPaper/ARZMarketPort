@@ -39,7 +39,7 @@
         "png": "https://imgur.com/O6BftZC",
         "description": "После установки данная табличка\nполностью пропадет из игры."
     },
-    "#ArizonaAntiLag": {
+    "ArizonaAntiTXDLag": {
         "link": "https://github.com/FREYM1337/forumnick/raw/main/script_manager/lag.lua",
         "png": "https://imgur.com/lx8Ei11",
         "description": "Фиксит залага при открытии \nинвентаря."
