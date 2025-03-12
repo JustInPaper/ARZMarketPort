@@ -7,6 +7,7 @@ local mainini = inicfg.load({
         posX = 25, 
         posY = 433,
         gzinfobar = true,
+        state = ''
     }
 	}, "gzhelper")
 inicfg.save(mainini, 'gzhelper.ini') 
@@ -19,9 +20,7 @@ function main()
 	if not isSampLoaded() then return end
  		while not isSampAvailable() do wait(100) end
 		wait(255)
-        posX = mainini.launcher.posX 
-        posY = mainini.launcher.posY
-        gzinfobar = mainini.launcher.gzinfobar
+        posX = mainini.launcher.posX; posY = mainini.launcher.posY; gzinfobar = mainini.launcher.gzinfobar; gz_informer = mainini.launcher.state
         AFKMessage('Green Zone Helper By Freym loaded. CMDS: /menuedit | /gzbar' ,-1)
         sampRegisterChatCommand("menuedit", function()
             menuedit = not menuedit
@@ -110,8 +109,23 @@ function save_all()
     mainini.launcher.posX = posX
     mainini.launcher.posY = posY
     mainini.launcher.gzinfobar = gzinfobar
+    mainini.launcher.state = (gz_informer == nil and 'None' or gz_informer)
     inicfg.save(mainini, "gzhelper.ini")
 end
+
+addEventHandler('onReceivePacket', function (id, bs)
+	if id == 220 then
+        local PacketID = raknetBitStreamReadInt8(bs)
+        local isGreenZonePacket = raknetBitStreamReadInt8(bs)
+        local state = raknetBitStreamReadInt8(bs)
+        if isGreenZonePacket == 110 and (state == 1 or state == 0) then
+            gz_informer = (state == 1 and '~G~YES' or '~R~NO')
+        end
+    end
+    if id == 34 then
+        gz_informer = 'None'
+    end
+end)
 
 function sampev.onServerMessage(color, text)
 	if gzinfobar == true and text:find('E_CURRENT_AREA_TYPE_INDEX') and color == -16776961 then
