@@ -14,23 +14,24 @@ end
 
 local banner = mainini.launcher.banner
 
-function onReceivePacket(id, bitStream)
+addEventHandler('onReceivePacket', function (id, bs)
     if banner == true then
-        if (id == 220) then
-            raknetBitStreamIgnoreBits(bitStream, 8)
-            if (raknetBitStreamReadInt8(bitStream) == 17) then
-                raknetBitStreamIgnoreBits(bitStream, 32)
-                cefstr = raknetBitStreamReadString(bitStream, raknetBitStreamReadInt32(bitStream))
-                if cefstr ~= nil then
-                    if cefstr:find('securityBanner') and cefstr:find('cef.modals.showModal') then
+        if id == 220 then
+            raknetBitStreamIgnoreBits(bs, 8)
+            if (raknetBitStreamReadInt8(bs) == 17) then
+                raknetBitStreamIgnoreBits(bs, 32)
+                local length = raknetBitStreamReadInt16(bs)
+                local encoded = raknetBitStreamReadInt8(bs)
+                local str = (encoded ~= 0) and raknetBitStreamDecodeString(bs, length + encoded) or raknetBitStreamReadString(bs, length)
+                if str ~= nil then
+                    if str:find('securityBanner') and str:find('cef.modals.showModal') then
                         sendCEF('securityBanner.close')
-                        return false
                     end
                 end
             end
         end
     end
-end
+end)
 
 function main()
     while not isSampAvailable() do wait(222) end
@@ -48,7 +49,7 @@ sendCEF = function(str)
     local bs = raknetNewBitStream()
     raknetBitStreamWriteInt8(bs, 220)
     raknetBitStreamWriteInt8(bs, 18)
-    raknetBitStreamWriteInt32(bs, #str)
+    raknetBitStreamWriteInt16(bs, #str)
     raknetBitStreamWriteString(bs, str)
     raknetBitStreamWriteInt32(bs, 0)
     raknetSendBitStream(bs)
