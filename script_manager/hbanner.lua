@@ -14,23 +14,24 @@ end
 
 local banner = mainini.launcher.banner
 
-function onReceivePacket(id, bitStream)
+addEventHandler('onReceivePacket', function (id, bs)
     if banner == true then
-        if (id == 220) then
-            raknetBitStreamIgnoreBits(bitStream, 8)
-            if (raknetBitStreamReadInt8(bitStream) == 17) then
-                raknetBitStreamIgnoreBits(bitStream, 32)
-                cefstr = raknetBitStreamReadString(bitStream, raknetBitStreamReadInt32(bitStream))
-                if cefstr ~= nil then
-                    if cefstr:find('RewardBanner') and cefstr:find('event.setActiveView') then
+        if id == 220 then
+            raknetBitStreamIgnoreBits(bs, 8)
+            if (raknetBitStreamReadInt8(bs) == 17) then
+                raknetBitStreamIgnoreBits(bs, 32)
+                local length = raknetBitStreamReadInt16(bs)
+                local encoded = raknetBitStreamReadInt8(bs)
+                local str = (encoded ~= 0) and raknetBitStreamDecodeString(bs, length + encoded) or raknetBitStreamReadString(bs, length)
+                if str ~= nil then
+                    if str:find('RewardBanner') and str:find('event.setActiveView') then
                         sendCEF('rewardBanner.close')
-                        -- return false
                     end
                 end
             end
         end
     end
-end
+end)
 
 function main()
     while not isSampAvailable() do wait(222) end
