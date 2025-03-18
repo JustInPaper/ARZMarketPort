@@ -4,6 +4,11 @@
         "png": "https://imgur.com/w9WX0l9",
         "description": "Быстрое открытие номеров без\nанимации."
     },
+    "editArizonaMenu": {
+        "link": "https://github.com/FREYM1337/forumnick/raw/main/script_manager/addZams.lua",
+        "png": "https://imgur.com/5fjgglJ",
+        "description": "После установки у вас в меню\nпоявится возможность редактирования\nзаместителей в бизнесе.\n[Раздел Управление бизнесом]"
+    },
     "CloseRewardBanner": {
         "link": "https://github.com/FREYM1337/forumnick/raw/main/script_manager/rewbanner.lua",
         "png": "https://imgur.com/x3O41Zi",
