@@ -26,7 +26,6 @@ end
 
 function sampev.onSendDialogResponse(dialogid, button, list, text) --отправка диалога
 	if text:find('Быстро получить номерной знак') and kod_regiona == nil and button == 1 then
-		-- AFKMessage('??')
 		lua_thread.create(function()
 			wait(100)
 			sampShowDialog(9989, " ", "{FFFFFF}Введите код города для номерного знака!", "Выбрать", "Закрыть", 1)
@@ -34,7 +33,6 @@ function sampev.onSendDialogResponse(dialogid, button, list, text) --отправка ди
 	elseif text:find('Быстро получить номерной знак') and kod_regiona ~= nil and button == 1 then
 		fast_nomera = true
 		sampSendDialogResponse(dialogid, 1, 1, false)
-		-- AFKMessage('oj')
 		return false
 	end
 	if text:find('Выбрать код региона для быстрого получения') and button == 1 then
@@ -47,33 +45,34 @@ function sampev.onSendDialogResponse(dialogid, button, list, text) --отправка ди
 end
 
 
-function onReceivePacket(id, bitStream)
-	if (id == 220) then
-		raknetBitStreamIgnoreBits(bitStream, 8)
-		if (raknetBitStreamReadInt8(bitStream) == 17) then
-			raknetBitStreamIgnoreBits(bitStream, 32)
-			cefstr = raknetBitStreamReadString(bitStream, raknetBitStreamReadInt32(bitStream))
+addEventHandler('onReceivePacket', function (id, bs)
+	if id == 220 then
+		raknetBitStreamIgnoreBits(bs, 8)
+		if (raknetBitStreamReadInt8(bs) == 17) then
+			raknetBitStreamIgnoreBits(bs, 32)
+			local length = raknetBitStreamReadInt16(bs)
+			local encoded = raknetBitStreamReadInt8(bs)
+			local cefstr = (encoded ~= 0) and raknetBitStreamDecodeString(bs, length + encoded) or raknetBitStreamReadString(bs, length)
+			if cefstr ~= nil then
+				if cefstr:find('event.setActiveView') and cefstr:find('CarNumbers') and fast_nomera == true then
+					local str = 'carNumbers.purchase|rus|'..tostring(kod_regiona)
+					sendcef(str)
+					return false
+				end
+				if cefstr:find('event.carNumbers.initializeCarNumber') and fast_nomera == true then
+					cef_close();
+					fast_nomera = false
+				end
+			end
 		end
 	end
-    if cefstr ~= nil then
-        if cefstr:find('event.setActiveView') and cefstr:find('CarNumbers') and fast_nomera == true then
-            local str = 'carNumbers.purchase|rus|'..tostring(kod_regiona)
-            sendcef(str)
-            return false
-        end
-		if cefstr:find('event.carNumbers.initializeCarNumber') and fast_nomera == true then
-			cef_close();
-			fast_nomera = false
-		end
-    end
-end
-
+end)
 
 function sendcef(str)
     local bs = raknetNewBitStream()
     raknetBitStreamWriteInt8(bs, 220)
     raknetBitStreamWriteInt8(bs, 18)
-    raknetBitStreamWriteInt32(bs, #str)
+    raknetBitStreamWriteInt16(bs, #str)
     raknetBitStreamWriteString(bs, str)
     raknetBitStreamWriteInt32(bs, 0)
     raknetSendBitStream(bs)
