@@ -5,7 +5,7 @@
         "description": "Мод который позволит вам\nбыстро зайти на сервер, даже если\nсервер полный и на него трудно зайти."
     },
     "Arizona-Anti-Afk": {
-        "link": {"#AntiAFK_1.4_byAIR.asi": "https://raw.githubusercontent.com/FREYM1337/forumnick/main/ArzMarketV2/AntiAFK.asi", "#AntiAFK_1.4_byAIR.ini": "https://raw.githubusercontent.com/FREYM1337/forumnick/main/ArzMarketV2/AntiAFK.ini"},
+        "link": {"#FAFK.asi": "https://raw.githubusercontent.com/FREYM1337/forumnick/main/ArzMarketV2/AntiAFK.asi"},
         "png": "https://imgur.com/C2RfIbt",
         "description": "Анти-Афк. Если вы будете\n сворачиваться из игры, ваша игра\n не будет уходить в афк.\n Данный мод полностью разрешен. Команда: /lafk"
     }
