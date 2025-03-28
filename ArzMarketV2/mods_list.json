@@ -7,6 +7,6 @@
     "Arizona-Anti-Afk": {
         "link": {"#FAntiAFK.asi": "https://raw.githubusercontent.com/FREYM1337/forumnick/main/ArzMarketV2/AntiAFK.asi"},
         "png": "https://imgur.com/C2RfIbt",
-        "description": "Анти-Афк. Если вы будете\n сворачиваться из игры, ваша игра\n не будет уходить в афк.\n Данный мод полностью разрешен. Команда: /lafk"
+        "description": "Анти-Афк. Если вы будете\n сворачиваться из игры, ваша игра\n не будет уходить в афк.\n Данный мод полностью разрешен. [Активация автоматическая]"
     }
 }
