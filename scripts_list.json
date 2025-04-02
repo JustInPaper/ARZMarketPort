@@ -4,11 +4,6 @@
         "png": "https://imgur.com/w9WX0l9",
         "description": "Быстрое открытие номеров без\nанимации."
     },
-    "screenReverser": {
-        "link": "https://github.com/FREYM1337/forumnick/raw/main/script_manager/screen.lua",
-        "png": "https://imgur.com/KAXliUr",
-        "description": "Убирает разворот экрана,\nэффект когда игра повернута.\nАктивация: перезайти в игру."
-    },
     "ProAntiRvanka-v5": {
         "link": "https://github.com/FREYM1337/forumnick/raw/main/script_manager/AntiRvanka_3_1.lua",
         "png": "https://imgur.com/mBwWCHF",
