@@ -22,7 +22,7 @@ function loadConfig() {
             sessionString: config.sessionString,
             API_ID: config.API_ID || 0,
             API_HASH: config.API_HASH || '',
-            interval: config.interval || 300000, 
+            interval: config.interval || 3600000, 
             saveSession: config.saveSession !== undefined ? config.saveSession : true 
         };
     } catch (error) {
@@ -33,7 +33,7 @@ function loadConfig() {
             sessionString: '',
             API_ID: 0,
             API_HASH: '',
-            interval: 300000, 
+            interval: 3600000, 
             saveSession: true 
         };
 
