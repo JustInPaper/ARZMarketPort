@@ -1,62 +1,74 @@
 {
     "FastOpenNomera": {
         "link": "https://github.com/FREYM1337/forumnick/raw/main/script_manager/nomera.lua",
-        "png": "https://imgur.com/w9WX0l9",
-        "description": "Быстрое открытие номеров без\nанимации."
+        "png": "https://imgur.com/tWxClVQ",
+        "description": "Быстрое открытие номеров без\nанимации.",
+        "unic": 1
     },
     "ProAntiRvanka-v5": {
         "link": "https://github.com/FREYM1337/forumnick/raw/main/script_manager/AntiRvanka_3_1.lua",
-        "png": "https://imgur.com/mBwWCHF",
-        "description": "Спасет вас от любых рванок\nпригодится на любые случаи жизни."
+        "png": "https://imgur.com/E3pXhgE",
+        "description": "Спасет вас от любых рванок\nпригодится на любые случаи жизни.",
+        "unic": 1
     },
     "CloseRewardBanner": {
         "link": "https://github.com/FREYM1337/forumnick/raw/main/script_manager/rewbanner.lua",
-        "png": "https://imgur.com/x3O41Zi",
-        "description": "После установки данная табличка\nполностью пропадет из игры."
+        "png": "https://imgur.com/qXZlwwu",
+        "description": "После установки данная табличка\nполностью пропадет из игры.",
+        "unic": 1
     },
     "NewStroboMenu": {
         "link": "https://github.com/FREYM1337/forumnick/raw/main/script_manager/strobo.lua",
-        "png": "https://imgur.com/tXZNJ4p",
-        "description": "Луа которая добавляет 2 вида\nстробоскопов с настройкой задержки.\nОткрыть настройки можно командой /strobo."
+        "png": "https://imgur.com/QHh7Qnt",
+        "description": "Луа которая добавляет 2 вида\nстробоскопов с настройкой задержки.\nОткрыть настройки можно командой /strobo.",
+        "unic": 1
     },
     "AutoAltEnterFix": {
         "link": "https://github.com/FREYM1337/forumnick/raw/main/script_manager/alt_enter.lua",
-        "png": "https://imgur.com/rrTuFDx",
-        "description": "Данная луа фиксит когда вы \nслучайно нажимали Alt+Enter\nи гта сворачивалась. Блокирует нажатие Alt+Enter."
+        "png": "https://imgur.com/KJrv2Vb",
+        "description": "Данная луа фиксит когда вы \nслучайно нажимали Alt+Enter\nи гта сворачивалась. Блокирует нажатие Alt+Enter.",
+        "unic": 1
     },
     "GreenZoneHelper": {
         "link": "https://github.com/FREYM1337/forumnick/raw/main/script_manager/greenzone.lua",
-        "png": "https://imgur.com/4Cht8RB",
-        "description": "После установки вы будете видеть\nгде находятся зеленые зоны."
+        "png": "https://imgur.com/UOphuR1",
+        "description": "После установки вы будете видеть\nгде находятся зеленые зоны.",
+        "unic": 1
     },
     "ActiveAcsHelper": {
         "link": "https://github.com/FREYM1337/forumnick/raw/main/script_manager/ActiveAccsHelper.lua",
-        "png": "https:\/\/imgur.com\/21pySOA",
-        "description": "После установки вы будете видеть\nкогда вам будет доступен ледяной меч."
+        "png": "https://imgur.com/AWvMzpv",
+        "description": "После установки вы будете видеть\nкогда вам будет доступен ледяной меч.",
+        "unic": 1
     },
     "AutoCloseBanner": {
         "link": "https://github.com/FREYM1337/forumnick/raw/main/script_manager/banner.lua",
-        "png": "https:\/\/imgur.com\/e4zwNGo",
-        "description": "После установки данная табличка\nполностью пропадет из игры."
+        "png": "https://imgur.com/eU9ksRk",
+        "description": "После установки данная табличка\nполностью пропадет из игры.",
+        "unic": 1
     },
     "ArzCloseUpdates": {
         "link": "https://github.com/FREYM1337/forumnick/raw/main/script_manager/hbanner.lua",
-        "png": "https://imgur.com/O6BftZC",
-        "description": "После установки данная табличка\nполностью пропадет из игры."
+        "png": "https://imgur.com/Hf8Cy6s",
+        "description": "После установки данная табличка\nполностью пропадет из игры.",
+        "unic": 1
     },
     "ArizonaAntiTDLag": {
         "link": "https://github.com/FREYM1337/forumnick/raw/main/script_manager/lag.lua",
-        "png": "https://imgur.com/lx8Ei11",
-        "description": "Фиксит залаг при открытии \nинвентаря."
+        "png": "https://imgur.com/qzto1cV",
+        "description": "Фиксит залаг при открытии \nинвентаря.",
+        "unic": 1
     },
     "ArizonaAntiUpdate": {
         "link": "https://github.com/FREYM1337/forumnick/raw/main/script_manager/AntiUpdate.lua",
-        "png": "https://imgur.com/bR2WaUR",
-        "description": "Удаляет плажку 'Доступно обновление'\nПосле установки перезайти в игру."
+        "png": "https://imgur.com/LMO9HLq",
+        "description": "Удаляет плажку 'Доступно обновление'\nПосле установки перезайти в игру.",
+        "unic": 1
     },
     "ArzFastCarsMenu": {
         "link": "https://github.com/FREYM1337/forumnick/raw/main/script_manager/fastcarmenu.lua",
-        "png": "https://imgur.com/GNUlbRM",
-        "description": "Открывает трезвый водитель по команде\nКоманда для активации /pcars"
+        "png": "https://imgur.com/dyVZmMQ",
+        "description": "Открывает трезвый водитель по команде\nКоманда для активации /pcars",
+        "unic": 1
     }
 }
