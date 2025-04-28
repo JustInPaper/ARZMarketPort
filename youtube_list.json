@@ -1,32 +1,37 @@
 {
     "release_pashenkov": {
         "head": "Релиз скрипта",
-        "png": "https://imgur.com/pWjtI1j",
+        "png": "https://imgur.com/eqTUhEo",
         "link": "https://youtu.be/5u4zcRsxzeg",
-        "description": "Посмотрите премьеру скрипта\nи узнайте много нового."
+        "description": "Посмотрите премьеру скрипта\nи узнайте много нового.",
+        "unic": 1
     },
     "Arelease_pashenkovA": {
         "head": "Обновление V2",
-        "png": "https://imgur.com/hutlf6e",
+        "png": "https://imgur.com/l1KSVLB",
         "link": "https://youtu.be/_5ufBOqZuho",
-        "description": "Вышло крупное обновление!\nБегом смотреть!"
+        "description": "Вышло крупное обновление!\nБегом смотреть!",
+        "unic": 1
     },
     "release_youtuber": {
         "head": "Видео с скриптом",
-        "png": "https://imgur.com/6APdUtQ",
+        "png": "https://imgur.com/h9xtiHG",
         "link": "https://youtu.be/rbFIR5sTTn4",
-        "description": "Ютубер NERREL сделал видео\nс нашим скриптом."
+        "description": "Ютубер NERREL сделал видео\nс нашим скриптом.",
+        "unic": 1
     },
     "aher_youtube": {
         "head": "Видео от Aher",
-        "png": "https://imgur.com/edhKDOj",
+        "png": "https://imgur.com/lPTQqMP",
         "link": "https://youtu.be/uCUa0f4tPA4",
-        "description": "Aher снял обзор на скрипт\nзацените, круто же!"
+        "description": "Aher снял обзор на скрипт\nзацените, круто же!",
+        "unic": 1
     },
     "newReview": {
         "head": "Подробный гайд!",
-        "png": "https://imgur.com/SPF3Ikr",
+        "png": "https://imgur.com/ZOsqJoh",
         "link": "https://youtu.be/yP7JvviwcD4",
-        "description": "VIPERR снял обзор на ArzMarket\nСрочно смотреть!!!"
+        "description": "VIPERR снял обзор на ArzMarket\nСрочно смотреть!!!",
+        "unic": 1
     }
 }
