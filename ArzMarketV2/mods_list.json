@@ -1,12 +1,14 @@
 {
     "ArzFastConnect": {
         "link": {"#FReconnect.asi": "https://raw.githubusercontent.com/FREYM1337/forumnick/main/ArzMarketV2/FReconnect.asi", "FReconnect.cs": "https://raw.githubusercontent.com/FREYM1337/forumnick/main/ArzMarketV2/FReconnect.cs", "ReconnectSettings.ini": "https://raw.githubusercontent.com/FREYM1337/forumnick/main/ArzMarketV2/ReconnectSettings.ini"},
-        "png": "https://imgur.com/fUgoGWt",
-        "description": "Мод который позволит вам\nбыстро зайти на сервер, даже если\nсервер полный и на него трудно зайти."
+        "png": "https://imgur.com/I3B98tO",
+        "description": "Мод который позволит вам\nбыстро зайти на сервер, даже если\nсервер полный и на него трудно зайти.",
+        "unic": 1
     },
     "Arizona-Anti-Afk": {
         "link": {"#FAntiAFK.asi": "https://raw.githubusercontent.com/FREYM1337/forumnick/main/ArzMarketV2/AntiAFK.asi"},
         "png": "https://imgur.com/C2RfIbt",
-        "description": "Анти-Афк. Если вы будете\nсворачиваться из игры, ваша игра\nне будет уходить в афк.\nДанный мод полностью разрешен.\nВНИМАНИЕ! [Активация автоматическая]"
+        "description": "Анти-Афк. Если вы будете\nсворачиваться из игры, ваша игра\nне будет уходить в афк.\nДанный мод полностью разрешен.\nВНИМАНИЕ! [Активация автоматическая]",
+        "unic": 1
     }
 }
