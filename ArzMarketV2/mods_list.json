@@ -6,7 +6,7 @@
         "unic": 1
     },
     "Arizona-Anti-Afk": {
-        "link": {"#FAntiAFK.asi": "https://raw.githubusercontent.com/FREYM1337/forumnick/main/ArzMarketV2/AntiAFK.asi"},
+        "link": {"#ArzFAntiAFK.asi": "https://raw.githubusercontent.com/FREYM1337/forumnick/main/ArzMarketV2/AntiAFK.asi"},
         "png": "https://imgur.com/C2RfIbt",
         "description": "Анти-Афк. Если вы будете\nсворачиваться из игры, ваша игра\nне будет уходить в афк.\nДанный мод полностью разрешен.\nВНИМАНИЕ! [Активация автоматическая]",
         "unic": 1
