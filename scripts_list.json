@@ -1,4 +1,10 @@
 {
+    "ArzCloseCalendar": {
+        "link": "https://raw.githubusercontent.com/FREYM1337/forumnick/main/script_manager/calendar.lua",
+        "png": "https://imgur.com/f71Oti3",
+        "description": "После установки данная табличка\nполностью пропадет из игры.",
+        "unic": 1
+    },
     "FastOpenNomera": {
         "link": "https://raw.githubusercontent.com/FREYM1337/forumnick/main/script_manager/nomera.lua",
         "png": "https://imgur.com/tWxClVQ",
