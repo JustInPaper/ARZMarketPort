@@ -35,12 +35,6 @@
         "description": "Данная луа фиксит когда вы \nслучайно нажимали Alt+Enter\nи гта сворачивалась. Блокирует нажатие Alt+Enter.",
         "unic": 1
     },
-    "GreenZoneHelper": {
-        "link": "https://raw.githubusercontent.com/FREYM1337/forumnick/main/script_manager/greenzone.lua",
-        "png": "https://imgur.com/UOphuR1",
-        "description": "После установки вы будете видеть\nгде находятся зеленые зоны.",
-        "unic": 1
-    },
     "ActiveAcsHelper": {
         "link": "https://raw.githubusercontent.com/FREYM1337/forumnick/main/script_manager/ActiveAccsHelper.lua",
         "png": "https://imgur.com/AWvMzpv",
