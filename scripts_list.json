@@ -5,6 +5,12 @@
         "description": "После установки данная табличка\nполностью пропадет из игры.",
         "unic": 1
     },
+    "MiningToolFixed": {
+        "link": "https://raw.githubusercontent.com/FREYM1337/forumnick/main/script_manager/miningtool.lua",
+        "png": "https://imgur.com/KTwzoIK",
+        "description": "Полностью исправленный Mining Tools.\nЧто бы открыть меню - ALT...\nвозле стойки видеокарты.",
+        "unic": 1
+    },
     "FastOpenNomera": {
         "link": "https://raw.githubusercontent.com/FREYM1337/forumnick/main/script_manager/nomera.lua",
         "png": "https://imgur.com/tWxClVQ",
